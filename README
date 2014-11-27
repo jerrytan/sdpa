@@ -1,0 +1,19 @@
+SDP: smart device peer
+author: zhongyi.tan@gmail.com
+
+
+feature list:
+  1. every smart device is a peer in a p2p network
+  2. every peer broadcast its description and its API to this network
+  3. every peer can call other's api ,and be called by other peer
+  
+Bootstrap:
+  it is for initial peer lookup
+
+Peer running on PC:
+
+Peer running on Android:
+
+     light
+     radio
+     player
