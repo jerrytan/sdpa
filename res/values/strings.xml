@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">LightOnBedroom</string>
+<string name="config">Configuration</string>
+<string name="joinpeer">Join Peer</string>
+<string name="peerlist">Peer List Manager</string>
+<string name="sbc">Contact SBC</string>
+<string name="configSBC">Config SBC</string>
+<string name="apilist">lightOn,lightOff</string>
+<string name="peername">LightOnBedroomDroid</string>
+<string name="peerport">50250</string>
+<string name="bootstrap">bootstrap@192.168.1.103:5080</string>
+
+</resources>

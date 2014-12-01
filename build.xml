@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- build file for SDP, it contains task for build, and run bs, run monitor -->
+
+<project basedir="." default="build" name="SDP">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars" />
+
+    <path id="sdp.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="lib/server.jar"/>
+        <pathelement location="lib/sip2peer-1.0.jar"/>
+        <pathelement location="lib/sip.jar"/>
+        <pathelement location="lib/gson-2.2.4.jar"/>
+    </path>
+
+    <target name="init">
+        <mkdir dir="bin"/>
+        <mkdir dir="log"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src" excludes="**/*.launch, **/*.java"/>
+        </copy>
+    </target>
+
+    <target name="clean">
+        <delete dir="log"/>
+        <delete dir="list"/>
+        <delete dir="bin"/>
+    </target>
+
+    <target depends="build-subprojects,build-project" name="build"/>
+
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" includeantruntime="true" debuglevel="${debuglevel}" destdir="bin"  srcdir="src" excludes="com/zytan/sdpn/droid/**" >
+            <classpath refid="sdp.classpath"/>
+        </javac>
+    </target>
+
+    <target depends="build" name="BS">
+        <java classname="com.zytan.sdpn.peer.SDPBootstrapPeer" failonerror="true" fork="yes">
+            <classpath refid="sdp.classpath"/>
+            <arg value="config/bs.cfg" />
+            <arg value=" 443cb4f4e3894579a84e341199c58588" />
+        </java>
+    </target>
+    
+   
+    
+    
+</project>

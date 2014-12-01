@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p
+END
+SBCActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/SBCActivity.java
+END
+PeerListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/PeerListActivity.java
+END
+JoinPeerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/JoinPeerActivity.java
+END
+PeerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/PeerActivity.java
+END
+PeerDroid.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/PeerDroid.java
+END
+ConfigPeerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/src/it/unipr/ce/dsg/s2p/ConfigPeerActivity.java
+END

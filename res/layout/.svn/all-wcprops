@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout
+END
+config_peer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout/config_peer.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout/main.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout/list_item.xml
+END
+cont_sbc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout/cont_sbc.xml
+END
+join_peer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/67/trunk/Android/Sip2Peer/res/layout/join_peer.xml
+END
